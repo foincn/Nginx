@@ -1,10 +1,13 @@
 
 
 # 安装依赖
-yum -y install gcc gcc-c++ autoconf automake make zlib zlib-devel openssl openssl-devel pcre pcre-devel
-yum install epel-release
-
-
+yum -y install gcc gcc-c++  
+yum -y install zlib zlib-devel 
+yum -y install openssl openssl-devel
+yum -y install pcre pcre-devel
+yum -y install gd gd-devel
+yum -y install autoconf automake make
+yum -y install epel-release
 
 # 下载源码
 wget -P /home/build http://nginx.org/download/nginx-1.10.3.tar.gz
