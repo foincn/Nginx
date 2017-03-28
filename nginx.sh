@@ -60,3 +60,15 @@ final ./configure --prefix=/opt/nginx-test --sbin-path=/usr/sbin/nginx --conf-pa
 ./configure
 make && make install
 
+
+# 配置nginx命令
+wget -O /etc/init.d/nginx https://gist.github.com/sairam/5892520/raw/b8195a71e944d46271c8a49f2717f70bcd04bf1a/etc-init.d-nginx
+sudo chmod +x /etc/init.d/nginx
+sudo update-rc.d nginx defaults
+
+nginx start
+
+# reference
+# https://xiaozhou.net/compile-nginx-manually-2015-07-23.html
+# https://tang.biz/google-every-where.html
+# https://my.oschina.net/kcw/blog/318309
