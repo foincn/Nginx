@@ -72,3 +72,4 @@ nginx start
 # https://xiaozhou.net/compile-nginx-manually-2015-07-23.html
 # https://tang.biz/google-every-where.html
 # https://my.oschina.net/kcw/blog/318309
+# https://www.digitalocean.com/community/tutorials/how-to-compile-nginx-from-source-on-a-centos-6-4-x64-vps
