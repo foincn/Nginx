@@ -4,5 +4,6 @@
 
 File location 文件位置
 /etc/nginx/conf.d/g.conf
+/home/admin/conf/web/nginx.conf
 
 变量名 $domain.com
